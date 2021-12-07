@@ -4,7 +4,7 @@ using System.Linq.Expressions;
 
 namespace Utils
 {
-    public static class DynamicLinqExpressionsExtensions
+    public static class DynamicLinqExpressionsExtension
     {
         public static Expression<Func<T, bool>> True<T>()
         {
